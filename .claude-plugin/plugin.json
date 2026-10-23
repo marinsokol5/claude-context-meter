@@ -1,0 +1,17 @@
+{
+  "name": "context-meter",
+  "version": "0.1.0",
+  "description": "Shows this chat's context window fill and whether its prompt cache is still warm, above the prompt.",
+  "author": { "name": "Marin Sokol" },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cacheTtl": {
+      "type": "string",
+      "title": "Prompt cache lifetime",
+      "description": "How long the prompt cache lives after the last response: 1h on Claude subscriptions, 5m by default on the API.",
+      "options": ["1h", "5m"],
+      "default": "1h"
+    }
+  }
+}
