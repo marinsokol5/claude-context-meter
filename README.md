@@ -2,8 +2,11 @@
 
 **Per-chat context and cache status for Claude Code**, in the terminal and the desktop app's Code tab. The account-wide usage meter tells you nothing about the chat you're in; this does:
 
+![The meter above the prompt in the Claude desktop app](screenshots/desktop.png)
+
+Once the cache has expired:
+
 ```
-Context 84k / 200k · 42% · cache warm, 37m left
 Context 84k / 200k · 42% · cache cold: next message re-sends 84k uncached
 ```
 
